@@ -1,0 +1,15 @@
+{
+  "publicPath": "",
+  "all": [
+    "app.bundle.js"
+  ],
+  "initial": [
+    "app.bundle.js"
+  ],
+  "async": [],
+  "modules": {
+    "aa5f4a3a": [
+      0
+    ]
+  }
+}

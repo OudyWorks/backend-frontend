@@ -185,7 +185,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./home/route.js\": \"./components/home/route.js\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./components sync recursive ([a-zA-Z0-9]+)[\\\\\\\\\\\\/](tasks[\\\\\\\\\\\\/]([a-zA-Z0-9]+)[\\\\\\\\\\\\/])?route.js$\";\n\n//# sourceURL=webpack:///./components_sync_(%5Ba-zA-Z0-9%5D+)%5B\\\\\\/%5D(tasks%5B\\\\\\/%5D(%5Ba-zA-Z0-9%5D+)%5B\\\\\\/%5D)?");
+eval("var map = {\n\t\"./error/route.js\": \"./components/error/route.js\",\n\t\"./home/route.js\": \"./components/home/route.js\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./components sync recursive ([a-zA-Z0-9]+)[\\\\\\\\\\\\/](tasks[\\\\\\\\\\\\/]([a-zA-Z0-9]+)[\\\\\\\\\\\\/])?route.js$\";\n\n//# sourceURL=webpack:///./components_sync_(%5Ba-zA-Z0-9%5D+)%5B\\\\\\/%5D(tasks%5B\\\\\\/%5D(%5Ba-zA-Z0-9%5D+)%5B\\\\\\/%5D)?");
+
+/***/ }),
+
+/***/ "./components/error/route.js":
+/*!***********************************!*\
+  !*** ./components/error/route.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  path: '*',\n  component: {\n    metaInfo: {\n      title: 'Error'\n    },\n    render: function render(h) {\n      return h(\"h2\", [\"Error page\"]);\n    }\n  }\n});\n\n//# sourceURL=webpack:///./components/error/route.js?");
 
 /***/ }),
 
