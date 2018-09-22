@@ -5,7 +5,6 @@ Vue.use(Router)
 
 const routes = require.context('components', true, /([a-zA-Z0-9]+)[\\\/](tasks[\\\/]([a-zA-Z0-9]+)[\\\/])?route.js$/);
 
-
 export default new Router({
     mode: 'history',
     routes: routes.keys().map(module => {

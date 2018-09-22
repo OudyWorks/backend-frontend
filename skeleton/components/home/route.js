@@ -1,8 +1,14 @@
 export default {
     path: '/',
     component: {
+        metaInfo: {
+            title: 'Home'
+        },
         render(h) {
-            return <h2>Hello world!</h2>
+            return <div>
+                <h2>Hello world!</h2>
+                <router-link to="/test">test</router-link>
+            </div>
         }
     }
 }
