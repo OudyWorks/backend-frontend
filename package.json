@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {},
+  "bin": {
+    "backend-build": "source/build/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OudyWorks/backend-frontend.git"
@@ -18,19 +21,19 @@
     "express": "^4.16.3",
     "vue": "^2.5.17",
     "vue-i18n": "^8.1.0",
-    "vue-meta": "^1.5.3",
+    "vue-meta": "^1.5.5",
     "vue-router": "^3.0.1",
     "vue-server-renderer": "^2.5.17",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.0",
+    "@babel/core": "^7.1.2",
     "@babel/plugin-syntax-jsx": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
-    "babel-loader": "^8.0.2",
+    "babel-loader": "^8.0.4",
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "chance": "^1.0.16",
-    "webpack": "^4.19.1",
+    "webpack": "^4.20.2",
     "webpack-merge": "^4.1.4",
     "webpack-node-externals": "^1.7.2"
   }
